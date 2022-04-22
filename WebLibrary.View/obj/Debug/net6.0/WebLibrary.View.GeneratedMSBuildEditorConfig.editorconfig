@@ -15,20 +15,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Documents\20157027\5º Período\Desenvolvimento Web com .NET Core\Av1\VS\git\BibliotecaDeCSharp\WebLibrary.View
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Documents/20157027/5º Período/Desenvolvimento Web com .NET Core/Av1/VS/git/BibliotecaDeCSharp/WebLibrary.View/Views/Library/Cliente.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxDbGllbnRlLmNzaHRtbA==
+[D:/Documents/20157027/5º Período/Desenvolvimento Web com .NET Core/Av1/VS/git/BibliotecaDeCSharp/WebLibrary.View/Views/Cliente/Cliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDbGllbnRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/20157027/5º Período/Desenvolvimento Web com .NET Core/Av1/VS/git/BibliotecaDeCSharp/WebLibrary.View/Views/Library/Emprestimo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxFbXByZXN0aW1vLmNzaHRtbA==
+[D:/Documents/20157027/5º Período/Desenvolvimento Web com .NET Core/Av1/VS/git/BibliotecaDeCSharp/WebLibrary.View/Views/Cliente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/20157027/5º Período/Desenvolvimento Web com .NET Core/Av1/VS/git/BibliotecaDeCSharp/WebLibrary.View/Views/Cliente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Documents/20157027/5º Período/Desenvolvimento Web com .NET Core/Av1/VS/git/BibliotecaDeCSharp/WebLibrary.View/Views/Emprestimo/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzdGltb1xpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Documents/20157027/5º Período/Desenvolvimento Web com .NET Core/Av1/VS/git/BibliotecaDeCSharp/WebLibrary.View/Views/Library/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Documents/20157027/5º Período/Desenvolvimento Web com .NET Core/Av1/VS/git/BibliotecaDeCSharp/WebLibrary.View/Views/Library/Livro.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGlicmFyeVxMaXZyby5jc2h0bWw=
+[D:/Documents/20157027/5º Período/Desenvolvimento Web com .NET Core/Av1/VS/git/BibliotecaDeCSharp/WebLibrary.View/Views/Livro/Livro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cm9cTGl2cm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Documents/20157027/5º Período/Desenvolvimento Web com .NET Core/Av1/VS/git/BibliotecaDeCSharp/WebLibrary.View/Views/Shared/Error.cshtml]

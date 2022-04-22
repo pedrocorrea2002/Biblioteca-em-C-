@@ -1,0 +1,56 @@
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - v1\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.deps.json
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - v1\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.runtimeconfig.json
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - v1\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.dll
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - v1\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.pdb
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - v1\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.csproj.AssemblyReference.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - v1\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - v1\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.AssemblyInfoInputs.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - v1\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.AssemblyInfo.cs
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - v1\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.csproj.CoreCompileInputs.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - v1\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.dll
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - v1\WebLibrary.Model\obj\Debug\net6.0\refint\WebLibrary.Model.dll
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - v1\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.pdb
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - v1\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.genruntimeconfig.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - v1\WebLibrary.Model\obj\Debug\net6.0\ref\WebLibrary.Model.dll
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - Paginas\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.deps.json
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - Paginas\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.runtimeconfig.json
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - Paginas\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.dll
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - Paginas\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.pdb
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - Paginas\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.csproj.AssemblyReference.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - Paginas\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - Paginas\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.AssemblyInfoInputs.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - Paginas\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.AssemblyInfo.cs
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - Paginas\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.csproj.CoreCompileInputs.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - Paginas\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.dll
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - Paginas\WebLibrary.Model\obj\Debug\net6.0\refint\WebLibrary.Model.dll
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - Paginas\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.pdb
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - Paginas\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.genruntimeconfig.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - Paginas\WebLibrary.Model\obj\Debug\net6.0\ref\WebLibrary.Model.dll
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.deps.json
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.runtimeconfig.json
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.dll
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.pdb
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.csproj.AssemblyReference.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.AssemblyInfoInputs.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.AssemblyInfo.cs
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.csproj.CoreCompileInputs.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.dll
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation\WebLibrary.Model\obj\Debug\net6.0\refint\WebLibrary.Model.dll
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.pdb
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.genruntimeconfig.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation\WebLibrary.Model\obj\Debug\net6.0\ref\WebLibrary.Model.dll
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation - Copia\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.deps.json
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation - Copia\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.runtimeconfig.json
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation - Copia\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.dll
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation - Copia\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.pdb
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation - Copia\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.csproj.AssemblyReference.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation - Copia\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation - Copia\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.AssemblyInfoInputs.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation - Copia\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.AssemblyInfo.cs
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation - Copia\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.csproj.CoreCompileInputs.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation - Copia\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.dll
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation - Copia\WebLibrary.Model\obj\Debug\net6.0\refint\WebLibrary.Model.dll
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation - Copia\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.pdb
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation - Copia\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.genruntimeconfig.cache
+C:\Users\David Renan - 01\Desktop\vs\WebLibrary - DataAnnotation - Copia\WebLibrary.Model\obj\Debug\net6.0\ref\WebLibrary.Model.dll

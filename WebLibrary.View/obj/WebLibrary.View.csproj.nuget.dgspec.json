@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\WebLibrary - v1\\WebLibrary.View\\WebLibrary.View.csproj": {}
+    "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\WebLibrary - v1\\WebLibrary.View\\WebLibrary.View.csproj": {
+    "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\WebLibrary - v1\\WebLibrary.View\\WebLibrary.View.csproj",
-        "projectName": "WebLibrary.View",
-        "projectPath": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\WebLibrary - v1\\WebLibrary.View\\WebLibrary.View.csproj",
+        "projectUniqueName": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj",
+        "projectName": "WebLibrary.Model",
+        "projectPath": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj",
         "packagesPath": "C:\\Users\\David Renan - 01\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\WebLibrary - v1\\WebLibrary.View\\obj\\",
+        "outputPath": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,100 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
+        "projectName": "WebLibrary.View",
+        "projectPath": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
+        "packagesPath": "C:\\Users\\David Renan - 01\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.View\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\David Renan - 01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj": {
+                "projectPath": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
