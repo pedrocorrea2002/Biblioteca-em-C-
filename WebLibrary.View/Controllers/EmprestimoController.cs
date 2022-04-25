@@ -37,16 +37,11 @@ namespace WebLibrary.View.Controllers
         // POST: EmprestimoController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(LivroClienteEmprestimo oEmpr)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            db.LivroClienteEmprestimo.Add(oEmpr);
+            db.SaveChanges();
+            return RedirectToAction("Emprestimo");
         }
 
         // GET: EmprestimoController/Edit/5

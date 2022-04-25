@@ -12,24 +12,33 @@ namespace WebLibrary.Model
     public partial class LivroClienteEmprestimo
     {
         [Key]
+        [Display(Name = "Código")]
         [Column("id")]
         public int Id { get; set; }
+
+        [Display(Name = "Código do livro")]
         [Column("idLivro")]
         public int IdLivro { get; set; }
+
+        [Display(Name = "Código do cliente")]
         [Column("idCliente")]
         public int IdCliente { get; set; }
+
+        [Display(Name = "Data de empréstimo")]
         [Column("dataEmprestimo", TypeName = "datetime")]
         public DateTime DataEmprestimo { get; set; }
+
+        [Display(Name = "Data de devolução")]
         [Column("dataDevolucao", TypeName = "datetime")]
         public DateTime DataDevolucao { get; set; }
 
         [ForeignKey(nameof(IdCliente))]
-        [Display(Name = "Código do Cliente")] // Data Annotations
+        [Display(Name = "Código do cliente")] // Data Annotations
         [InverseProperty(nameof(Cliente.LivroClienteEmprestimo))]
         public virtual Cliente IdClienteNavigation { get; set; }
         [ForeignKey(nameof(IdLivro))]
         [InverseProperty(nameof(Livro.LivroClienteEmprestimo))]
-        [Display(Name = "Código do Livro")] // Data Annotations
+        [Display(Name = "Código do livro")] // Data Annotations
         public virtual Livro IdLivroNavigation { get; set; }
     }
 }
