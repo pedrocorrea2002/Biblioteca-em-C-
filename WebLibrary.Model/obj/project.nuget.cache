@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PKBqSnAU/YyhuAhMSqJoWdcoPmmQT89yG9tlCm6pxqURDIJYveyWpGMB/wjyW6u3Wf3mIiGznUa+IdQq2AOn6Q==",
+  "dgSpecHash": "c+905FzFqgPj9CqUvvLbUEWSo5CrFVQfTOGBY5wH7yOHgstGNxTVfWpQMUQtBKFm95/jZvm6tNtk5IVH+sgvRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Caio\\Desktop\\segundo comit\\BibliotecaDeCSharp-main\\WebLibrary.Model\\WebLibrary.Model.csproj",
+  "projectFilePath": "C:\\Users\\Caio\\Desktop\\segundo comit\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Caio\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Caio\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -68,3 +68,17 @@ C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp-main\WebLibrary.Model\obj
 C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp-main\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.pdb
 C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp-main\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.genruntimeconfig.cache
 C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp-main\WebLibrary.Model\obj\Debug\net6.0\ref\WebLibrary.Model.dll
+C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.deps.json
+C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.runtimeconfig.json
+C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.dll
+C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.pdb
+C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.csproj.AssemblyReference.cache
+C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.AssemblyInfoInputs.cache
+C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.AssemblyInfo.cs
+C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.csproj.CoreCompileInputs.cache
+C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.dll
+C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\refint\WebLibrary.Model.dll
+C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.pdb
+C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.genruntimeconfig.cache
+C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\ref\WebLibrary.Model.dll

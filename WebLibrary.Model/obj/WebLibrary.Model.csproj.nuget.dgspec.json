@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Caio\\Desktop\\segundo comit\\BibliotecaDeCSharp-main\\WebLibrary.Model\\WebLibrary.Model.csproj": {}
+    "C:\\Users\\Caio\\Desktop\\segundo comit\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Caio\\Desktop\\segundo comit\\BibliotecaDeCSharp-main\\WebLibrary.Model\\WebLibrary.Model.csproj": {
+    "C:\\Users\\Caio\\Desktop\\segundo comit\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Caio\\Desktop\\segundo comit\\BibliotecaDeCSharp-main\\WebLibrary.Model\\WebLibrary.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Caio\\Desktop\\segundo comit\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj",
         "projectName": "WebLibrary.Model",
-        "projectPath": "C:\\Users\\Caio\\Desktop\\segundo comit\\BibliotecaDeCSharp-main\\WebLibrary.Model\\WebLibrary.Model.csproj",
+        "projectPath": "C:\\Users\\Caio\\Desktop\\segundo comit\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj",
         "packagesPath": "C:\\Users\\Caio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Caio\\Desktop\\segundo comit\\BibliotecaDeCSharp-main\\WebLibrary.Model\\obj\\",
+        "outputPath": "C:\\Users\\Caio\\Desktop\\segundo comit\\BibliotecaDeCSharp\\WebLibrary.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Caio\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -18,6 +18,9 @@ namespace WebLibrary.View.Controllers
             return View();
         }
 
+
+
+
         public ActionResult Livro() // retorna a lista com os livros 
         {
             List<Livro> oLivro = db.Livro.ToList();
@@ -25,17 +28,28 @@ namespace WebLibrary.View.Controllers
 
         }
 
-        // GET: LivroController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
+
+
+
+        //// GET: LivroController/Details/5
+        //public ActionResult Details(int id)
+        //{
+        //    return View();
+        //}
+
+
+
+
 
         // GET: LivroController/Create
         public ActionResult Create()
         {
             return View();
         }
+
+
+
+
 
         // POST: LivroController/Create
         [HttpPost]
@@ -47,12 +61,21 @@ namespace WebLibrary.View.Controllers
             return RedirectToAction("Livro");
         }
 
+
+
+
+
         // GET: LivroController/Edit/5
         public ActionResult Edit(int id)  // SELECIONA INFORMAÇÕES DO LIVRO NA  TABELA
         {
-            Livro oCat = db.Livro.Find(id);
-            return View(oCat);
+            Livro oCatLivro = db.Livro.Find(id);
+            return View(oCatLivro);
         }
+
+
+
+
+
 
         // POST: LivroController/Edit/5
         [HttpPost]
@@ -66,49 +89,74 @@ namespace WebLibrary.View.Controllers
             oCatLivro.Autor = oLivro.Autor;
             oCatLivro.Editora = oLivro.Editora;
             oCatLivro.Emprestado = oLivro.Emprestado;
+
+
+
+            db.Entry(oCatLivro).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
             db.SaveChanges();
             return RedirectToAction("Livro");
 
         }
 
 
-        
 
+       
 
-
-        public ActionResult Delete(int id = 0) 
-        { 
+        public ActionResult Details(int id,Livro livro)
+        {
 
             Livro oLivro = db.Livro.Find(id);
+            return View(oLivro);
 
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        private ActionResult HttpNotFound()
+        {
+            throw new NotImplementedException();
+        }
+
+        public ActionResult Delete(int id = 0)
+        {
+            Livro oLivro = db.Livro.Find(id);
             if (Livro == null)
             {
                 return HttpNotFound();
             }
             return View(oLivro);
-
-            
         }
 
-        public ActionResult HttpNotFound()
-        {
-            throw new NotImplementedException();
-        }
+        
 
-        //Post: 
+        
 
         [HttpPost, ActionName("Delete")]
-        public ActionResult DeleteConfirmed(int id)
-        { 
+        public ActionResult DeleteConfirmed(int id = 0)
+        {
             Livro oLivro = db.Livro.Find(id);
+            if (Livro == null)
+            {
+                return HttpNotFound();
+            }
             db.Livro.Remove(oLivro);
             db.SaveChanges();
             return RedirectToAction("Livro");
-
-
-
-
         }
+
 
 
     }

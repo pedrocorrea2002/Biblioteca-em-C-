@@ -51,6 +51,7 @@ namespace WebLibrary.View.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create(LivroClienteEmprestimo oEmpr)
         {
+            
             db.LivroClienteEmprestimo.Add(oEmpr);
             db.SaveChanges();
             return RedirectToAction("Emprestimo");
