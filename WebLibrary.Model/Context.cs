@@ -26,7 +26,7 @@ namespace WebLibrary.Model
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=DESKTOP-JDE8Q70\\SQLEXPRESS;Initial Catalog=ControleEmprestimoLivro;Persist Security Info=True;User ID=sa;Password=sa123");
+                optionsBuilder.UseSqlServer("Data Source=DESKTOP-9UMSEK5\\SQLEXPRESS;Initial Catalog=ControleEmprestimoLivro;Persist Security Info=True;User ID=sa;Password=sa123");
             }
         }
 
@@ -60,6 +60,11 @@ namespace WebLibrary.Model
             });
 
             OnModelCreatingPartial(modelBuilder);
+        }
+
+        public object Entry(object oLivro)
+        {
+            throw new NotImplementedException();
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
