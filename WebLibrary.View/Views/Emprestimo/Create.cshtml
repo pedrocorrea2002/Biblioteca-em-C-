@@ -18,11 +18,11 @@
             </div>
             <div class="form-group">
                 <label asp-for="IdLivro" class="control-label"></label>
-                <select asp-for="IdLivro" class ="form-control" asp-items="ViewBag.IdLivro"></select>
+                <select asp-for="IdLivro" class ="form-control" asp-items="ViewBag.Livro"></select>
             </div>
             <div class="form-group">
                 <label asp-for="IdCliente" class="control-label"></label>
-                <select asp-for="IdCliente" class ="form-control" asp-items="ViewBag.IdCliente"></select>
+                <select asp-for="IdCliente" class ="form-control" asp-items="ViewBag.Cliente"></select>
             </div>
             <div class="form-group">
                 <label asp-for="DataEmprestimo" class="control-label"></label>
@@ -43,7 +43,7 @@
 </div>
 <br/>
 <div>
-    <a asp-action="Index">Voltar para a lista</a>
+    <a asp-action="Emprestimo">Voltar para a lista</a>
 </div>
 
 @section Scripts {
