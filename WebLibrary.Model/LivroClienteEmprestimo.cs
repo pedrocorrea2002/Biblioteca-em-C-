@@ -37,8 +37,8 @@ namespace WebLibrary.Model
         [InverseProperty(nameof(Cliente.LivroClienteEmprestimo))]
         public virtual Cliente IdClienteNavigation { get; set; }
         [ForeignKey(nameof(IdLivro))]
-        [InverseProperty(nameof(Livro.LivroClienteEmprestimo))]
         [Display(Name = "Código do livro")] // Data Annotations
+        [InverseProperty(nameof(Livro.LivroClienteEmprestimo))]
         public virtual Livro IdLivroNavigation { get; set; }
     }
 }
