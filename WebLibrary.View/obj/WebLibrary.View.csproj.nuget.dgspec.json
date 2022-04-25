@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj": {}
+    "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj": {
+    "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj",
+        "projectUniqueName": "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj",
         "projectName": "WebLibrary.Model",
-        "projectPath": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj",
-        "packagesPath": "C:\\Users\\David Renan - 01\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.Model\\obj\\",
+        "projectPath": "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+        "outputPath": "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\David Renan - 01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -74,24 +74,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj": {
+    "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
+        "projectUniqueName": "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
         "projectName": "WebLibrary.View",
-        "projectPath": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
-        "packagesPath": "C:\\Users\\David Renan - 01\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.View\\obj\\",
+        "projectPath": "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
+        "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+        "outputPath": "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.View\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\David Renan - 01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -106,8 +106,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj": {
-                "projectPath": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\git\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj"
+              "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj": {
+                "projectPath": "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj"
               }
             }
           }
@@ -155,7 +155,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
