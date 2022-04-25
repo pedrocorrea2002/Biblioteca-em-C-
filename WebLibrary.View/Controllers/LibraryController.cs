@@ -72,7 +72,7 @@ namespace WebLibrary.View.Controllers
             oCatBanco.Endereco = oCat.Endereco;
             oCatBanco.Cidade = oCat.Cidade;
             oCatBanco.Bairro = oCat.Bairro;
-            db.Entry(oCatBanco).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            
             db.SaveChanges();
             return RedirectToAction("Cliente");
         }
