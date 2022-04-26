@@ -18,9 +18,6 @@ namespace WebLibrary.View.Controllers
             return View();
         }
 
-
-
-
         public ActionResult Livro() // retorna a lista com os livros 
         {
             List<Livro> oLivro = db.Livro.ToList();
@@ -28,28 +25,20 @@ namespace WebLibrary.View.Controllers
 
         }
 
-
-
-
         //// GET: LivroController/Details/5
-        //public ActionResult Details(int id)
-        //{
-        //    return View();
-        //}
+        public ActionResult Details(int id, Livro livro)
+        {
 
+            Livro oLivro = db.Livro.Find(id);
+            return View(oLivro);
 
-
-
+        }
 
         // GET: LivroController/Create
         public ActionResult Create()
         {
             return View();
         }
-
-
-
-
 
         // POST: LivroController/Create
         [HttpPost]
@@ -61,10 +50,6 @@ namespace WebLibrary.View.Controllers
             return RedirectToAction("Livro");
         }
 
-
-
-
-
         // GET: LivroController/Edit/5
         public ActionResult Edit(int id)  // SELECIONA INFORMAÇÕES DO LIVRO NA  TABELA
         {
@@ -72,15 +57,9 @@ namespace WebLibrary.View.Controllers
             return View(oCatLivro);
         }
 
-
-
-
-
-
         // POST: LivroController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-
         public ActionResult Edit(int id, Livro oLivro) // EDITAR INFORMAÇÕES DO LIVRO NA  TABELA
         {
             var oCatLivro = db.Livro.Find(id);
@@ -90,46 +69,17 @@ namespace WebLibrary.View.Controllers
             oCatLivro.Editora = oLivro.Editora;
             oCatLivro.Emprestado = oLivro.Emprestado;
 
-
-
             db.Entry(oCatLivro).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
             db.SaveChanges();
             return RedirectToAction("Livro");
-
         }
-
-
-
-       
-
-        public ActionResult Details(int id,Livro livro)
-        {
-
-            Livro oLivro = db.Livro.Find(id);
-            return View(oLivro);
-
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         private ActionResult HttpNotFound()
         {
             throw new NotImplementedException();
         }
 
+        // GET: LivroController/Delete/5
         public ActionResult Delete(int id = 0)
         {
             Livro oLivro = db.Livro.Find(id);
@@ -140,10 +90,7 @@ namespace WebLibrary.View.Controllers
             return View(oLivro);
         }
 
-        
-
-        
-
+        // POST: LivroController/Delete/5
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id = 0)
         {
@@ -153,11 +100,32 @@ namespace WebLibrary.View.Controllers
                 return HttpNotFound();
             }
             db.Livro.Remove(oLivro);
-            db.SaveChanges();
+
+            try
+            {
+                db.SaveChanges();
+            }
+            catch (Microsoft.EntityFrameworkCore.DbUpdateException)
+            {
+                Response.WriteAsync("<script>" +
+
+                    "var r=confirm('Este livro possui emprestimos em seu nome!');" +
+                        "if (r == true)" +
+                        "{document.location.replace('../Livro')}else{document.location.replace('../Livro')}" +
+
+                        "</script>");
+            }
+            catch(Exception ex)
+            {
+                Response.WriteAsync("<script>" +
+
+                    "var r=confirm('Ocorreu um erro interno!');" +
+                        "if (r == true || r == false)" +
+                        "{document.location.replace('../Livro')}" +
+
+                        "</script>");
+            }
             return RedirectToAction("Livro");
         }
-
-
-
     }
 }

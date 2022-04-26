@@ -27,9 +27,12 @@ namespace WebLibrary.View.Controllers
         // GET: EmprestimoController/Details/5
         public ActionResult Details(int id)
         {
-            var oEmpr = db.LivroClienteEmprestimo.Find(id);
-            oEmpr.IdClienteNavigation.Nome = db.Cliente.Find(oEmpr.IdCliente).Nome;
-            oEmpr.IdLivroNavigation.Nome = db.Livro.Find(oEmpr.IdLivro).Nome;
+            LivroClienteEmprestimo oEmpr = db.LivroClienteEmprestimo.Find(id);
+            Cliente oCliente = db.Cliente.Find(oEmpr.IdCliente);
+            Livro oLivro = db.Livro.Find(oEmpr.IdLivro);
+
+            oEmpr.IdClienteNavigation.Nome = oCliente.Nome;
+            oEmpr.IdLivroNavigation.Nome = oLivro.Nome;
 
             return View(oEmpr);
         }
