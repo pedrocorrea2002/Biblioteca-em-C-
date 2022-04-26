@@ -68,3 +68,17 @@ C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp-main\WebLibrary.Model\obj
 C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp-main\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.pdb
 C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp-main\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.genruntimeconfig.cache
 C:\Users\Caio\Desktop\segundo comit\BibliotecaDeCSharp-main\WebLibrary.Model\obj\Debug\net6.0\ref\WebLibrary.Model.dll
+G:\Programation\C#\BibliotecaDeCSharp\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.deps.json
+G:\Programation\C#\BibliotecaDeCSharp\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.runtimeconfig.json
+G:\Programation\C#\BibliotecaDeCSharp\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.dll
+G:\Programation\C#\BibliotecaDeCSharp\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.pdb
+G:\Programation\C#\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.csproj.AssemblyReference.cache
+G:\Programation\C#\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.GeneratedMSBuildEditorConfig.editorconfig
+G:\Programation\C#\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.AssemblyInfoInputs.cache
+G:\Programation\C#\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.AssemblyInfo.cs
+G:\Programation\C#\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.csproj.CoreCompileInputs.cache
+G:\Programation\C#\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.dll
+G:\Programation\C#\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\refint\WebLibrary.Model.dll
+G:\Programation\C#\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.pdb
+G:\Programation\C#\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.genruntimeconfig.cache
+G:\Programation\C#\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\ref\WebLibrary.Model.dll
