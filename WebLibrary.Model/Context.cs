@@ -26,7 +26,7 @@ namespace WebLibrary.Model
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=DESKTOP-DACNNQH\\SQLEXPRESS;Initial Catalog=ControleEmprestimoLivro;Persist Security Info=True;User ID=sa;Password=sa123");
+                optionsBuilder.UseSqlServer("Data Source=DESKTOP-9UMSEK5\\SQLEXPRESS;Initial Catalog=ControleEmprestimoLivro;Persist Security Info=True;User ID=sa;Password=sa123");
             }
         }
 
