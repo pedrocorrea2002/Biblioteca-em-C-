@@ -37,10 +37,10 @@ namespace WebLibrary.View.Controllers
         // GET: EmprestimoController/Create
         public ActionResult Create()
         {
-            var Cliente = new SelectList(db.Livro.ToList(), "Id", "Nome");
+            var Cliente = new SelectList(db.Cliente.ToList(), "Id", "Nome");
             ViewBag.Cliente = Cliente;
 
-            var Livro = new SelectList(db.Cliente.ToList(), "Id", "Nome");
+            var Livro = new SelectList(db.Livro.ToList(), "Id", "Nome");
             ViewBag.Livro = Livro;
 
             return View();
@@ -59,10 +59,10 @@ namespace WebLibrary.View.Controllers
         // GET: EmprestimoController/Edit/5
         public ActionResult Edit(int id)
         {
-            var Cliente = new SelectList(db.Livro.ToList(), "Id", "Nome");
+            var Cliente = new SelectList(db.Cliente.ToList(), "Id", "Nome");
             ViewBag.Cliente = Cliente;
 
-            var Livro = new SelectList(db.Cliente.ToList(), "Id", "Nome");
+            var Livro = new SelectList(db.Livro.ToList(), "Id", "Nome");
             ViewBag.Livro = Livro;
 
             LivroClienteEmprestimo oEmpr = db.LivroClienteEmprestimo.Find(id);
