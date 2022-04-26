@@ -89,22 +89,48 @@ namespace WebLibrary.View.Controllers
             return RedirectToAction("Emprestimo");
         }
 
+        private ActionResult HttpNotFound()
+        {
+            throw new NotImplementedException();
+        }
+
         // GET: EmprestimoController/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(int id = 0)
         {
             LivroClienteEmprestimo oEmpr = db.LivroClienteEmprestimo.Find(id);
+            if (oEmpr == null)
+            {
+                return HttpNotFound();
+            }
             return View(oEmpr);
         }
 
-        // POST: EmprestimoController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, LivroClienteEmprestimo oEmpr)
+        // POST: LivroController/Delete/5
+        [HttpPost, ActionName("Delete")]
+        public ActionResult DeleteConfirmed(int id = 0)
         {
-            oEmpr = db.LivroClienteEmprestimo.Find(id);
-            db.Entry(oEmpr).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
-            db.SaveChanges();
+            LivroClienteEmprestimo oEmpr = db.LivroClienteEmprestimo.Find(id);
+            if (oEmpr == null)
+            {
+                return HttpNotFound();
+            }
 
+            db.LivroClienteEmprestimo.Remove(oEmpr);
+
+            try
+            {
+                db.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                Response.WriteAsync("<script>" +
+
+                    "var r=confirm('Ocorreu um erro interno!');" +
+                        "if (r == true || r == false)" +
+                        "{document.location.replace('../Emprestimo')}" +
+
+                        "</script>");
+            }
             return RedirectToAction("Emprestimo");
         }
     }

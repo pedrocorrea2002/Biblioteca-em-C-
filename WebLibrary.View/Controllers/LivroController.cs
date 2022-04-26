@@ -95,7 +95,7 @@ namespace WebLibrary.View.Controllers
         public ActionResult DeleteConfirmed(int id = 0)
         {
             Livro oLivro = db.Livro.Find(id);
-            if (Livro == null)
+            if (oLivro == null)
             {
                 return HttpNotFound();
             }
@@ -110,8 +110,8 @@ namespace WebLibrary.View.Controllers
                 Response.WriteAsync("<script>" +
 
                     "var r=confirm('Este livro possui emprestimos em seu nome!');" +
-                        "if (r == true)" +
-                        "{document.location.replace('../Livro')}else{document.location.replace('../Livro')}" +
+                        "if (r == true || r == false)" +
+                        "{document.location.replace('../Livro')}" +
 
                         "</script>");
             }
