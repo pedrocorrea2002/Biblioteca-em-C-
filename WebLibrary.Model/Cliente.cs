@@ -10,30 +10,25 @@ namespace WebLibrary.Model
 {
     public partial class Cliente
     {
-        public object nome;
-
         public Cliente()
         {
             LivroClienteEmprestimo = new HashSet<LivroClienteEmprestimo>();
         }
 
         [Key]
-        [Display(Name = "Código")] // Data Annotations
         [Column("id")]
         public int Id { get; set; }
         [Required]
-        [Display(Name = "CPF")] // Data Annotations
         [Column("CPF")]
         [StringLength(14)]
         [Unicode(false)]
-        public string Cpf { get; set; }        
+        public string Cpf { get; set; }
         [Required]
         [Column("nome")]
         [StringLength(100)]
         [Unicode(false)]
         public string Nome { get; set; }
         [Required]
-        [Display(Name = "Endereço")] // Data Annotations
         [Column("endereco")]
         [StringLength(50)]
         [Unicode(false)]

@@ -107,23 +107,11 @@ namespace WebLibrary.View.Controllers
             }
             catch (Microsoft.EntityFrameworkCore.DbUpdateException)
             {
-                Response.WriteAsync("<script>" +
-
-                    "var r=confirm('Este livro possui emprestimos em seu nome!');" +
-                        "if (r == true || r == false)" +
-                        "{document.location.replace('../Livro')}" +
-
-                        "</script>");
+                Response.WriteAsync("<script>alert('Este livro possui emprestimos em seu nome!');{document.location.replace('../Livro')}</script>");
             }
             catch(Exception ex)
             {
-                Response.WriteAsync("<script>" +
-
-                    "var r=confirm('Ocorreu um erro interno!');" +
-                        "if (r == true || r == false)" +
-                        "{document.location.replace('../Livro')}" +
-
-                        "</script>");
+                Response.WriteAsync("<script>alert('Ocorreu um erro interno!');{document.location.replace('../Livro')}</script>");
             }
             return RedirectToAction("Livro");
         }

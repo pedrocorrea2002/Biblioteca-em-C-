@@ -16,7 +16,6 @@ namespace WebLibrary.Model
         }
 
         [Key]
-        [Display(Name = "Código")] // Data Annotations
         [Column("id")]
         public int Id { get; set; }
         [Required]

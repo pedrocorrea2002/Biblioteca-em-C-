@@ -26,26 +26,15 @@ namespace WebLibrary.Model
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=DESKTOP-DACNNQH\\SQLEXPRESS;Initial Catalog=ControleEmprestimoLivro;Persist Security Info=True;User ID=sa;Password=sa123");
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+                optionsBuilder.UseSqlServer("Data Source=DESKTOP-DACNNQH\\SQLEXPRESS;Initial Catalog=ControleEmprestimoLivro;User ID=sa;Password=sa123");
             }
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Cliente>(entity =>
-            {
-                entity.Property(e => e.Id).ValueGeneratedNever();
-            });
-
-            modelBuilder.Entity<Livro>(entity =>
-            {
-                entity.Property(e => e.Id).ValueGeneratedNever();
-            });
-
             modelBuilder.Entity<LivroClienteEmprestimo>(entity =>
             {
-                entity.Property(e => e.Id).ValueGeneratedNever();
-
                 entity.HasOne(d => d.IdClienteNavigation)
                     .WithMany(p => p.LivroClienteEmprestimo)
                     .HasForeignKey(d => d.IdCliente)
@@ -61,11 +50,6 @@ namespace WebLibrary.Model
 
             OnModelCreatingPartial(modelBuilder);
         }
-
-        //public object Entry(object oLivro)
-        //{
-        //    throw new NotImplementedException();
-        //}
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
     }

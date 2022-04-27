@@ -123,13 +123,7 @@ namespace WebLibrary.View.Controllers
             }
             catch (Exception ex)
             {
-                Response.WriteAsync("<script>" +
-
-                    "var r=confirm('Ocorreu um erro interno!');" +
-                        "if (r == true || r == false)" +
-                        "{document.location.replace('../Emprestimo')}" +
-
-                        "</script>");
+                Response.WriteAsync("<script>alert('Ocorreu um erro interno!');{document.location.replace('../Emprestimo')}</script>");
             }
             return RedirectToAction("Emprestimo");
         }
