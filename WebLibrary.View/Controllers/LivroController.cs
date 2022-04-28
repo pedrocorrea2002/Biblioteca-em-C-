@@ -26,7 +26,7 @@ namespace WebLibrary.View.Controllers
         }
 
         //// GET: LivroController/Details/5
-        public ActionResult Details(int id, Livro livro)
+        public ActionResult Details(int id)
         {
 
             Livro oLivro = db.Livro.Find(id);
@@ -74,19 +74,12 @@ namespace WebLibrary.View.Controllers
             return RedirectToAction("Livro");
         }
 
-        private ActionResult HttpNotFound()
-        {
-            throw new NotImplementedException();
-        }
+        
 
         // GET: LivroController/Delete/5
         public ActionResult Delete(int id = 0)
         {
             Livro oLivro = db.Livro.Find(id);
-            if (Livro == null)
-            {
-                return HttpNotFound();
-            }
             return View(oLivro);
         }
 
@@ -95,10 +88,7 @@ namespace WebLibrary.View.Controllers
         public ActionResult DeleteConfirmed(int id = 0)
         {
             Livro oLivro = db.Livro.Find(id);
-            if (oLivro == null)
-            {
-                return HttpNotFound();
-            }
+            
             db.Livro.Remove(oLivro);
 
             try

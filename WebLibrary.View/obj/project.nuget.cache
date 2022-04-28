@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p+7SQToRzwUaAvkHCfim2XiSTCl7Bu0TEB+8u4of0CuL6GD20CUdNSX/mMmF7TWKQcvdmUmixv0HpBTyBw+ePg==",
+  "dgSpecHash": "AqyE3XNFnBZUbAPCuEV+RT2jd2QqZwz065TRYXP8SCSWpPEdYqfqW6Mjs9NSu5FWI4ubDKHeyWQEQr309+HoiQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Caio\\Desktop\\segundo comit\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
+  "projectFilePath": "C:\\Users\\Caio\\Desktop\\fazer aqui\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Caio\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Caio\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

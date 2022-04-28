@@ -31,7 +31,8 @@ namespace WebLibrary.View.Controllers
             // GET: ClienteController/Details/5
             public ActionResult Details(int id)
         {
-            return View();
+            Cliente oCliente = db.Cliente.Find(id);
+            return View(oCliente);
         }
 
         // GET: ClienteController/Create
@@ -41,13 +42,41 @@ namespace WebLibrary.View.Controllers
         }
 
         // POST: ClienteController/Create
-        [HttpPost]
+        [HttpPost, ActionName("Create")]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(Cliente oCat)
+        public ActionResult Create(int id,Cliente oCliente)
         {
-            db.Cliente.Add(oCat);
-            db.SaveChanges();
+            List<Cliente> oLista = db.Cliente.ToList();
+            var cpfExiste = false;
+
+            oLista.ForEach(c =>
+            {
+                if(c.Cpf == oCliente.Cpf)
+                {
+                    cpfExiste = true;
+                }
+            });
+
+            if (!cpfExiste)
+            {
+                db.Cliente.Add(oCliente);
+
+                try
+                {
+                    db.SaveChanges();
+                }
+                catch (Microsoft.EntityFrameworkCore.DbUpdateException)
+                {
+                    Response.WriteAsync("<script>alert('Este Cliente possui emprestimos em seu nome!');{document.location.replace('../Cliente')}</script>");
+                }
+            }
+            else
+            {
+                Response.WriteAsync("<script>alert('Este CPF ja foi registrado!');document.location.replace('./Create');</script>");
+            }
+            
             return RedirectToAction("Cliente");
+
         }
 
         // GET: ClienteController/Edit/5
@@ -60,39 +89,95 @@ namespace WebLibrary.View.Controllers
         // POST: ClienteController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, Cliente oCat)
+        public ActionResult Edit(int id, Cliente oCliente)
         {
-            var oCatBanco = db.Cliente.Find(id);
-            oCatBanco.Cpf = oCat.Cpf;
-            oCatBanco.Nome = oCat.Nome;
-            oCatBanco.Endereco = oCat.Endereco;
-            oCatBanco.Cidade = oCat.Cidade;
-            oCatBanco.Bairro = oCat.Bairro;
+            List<Cliente> oLista = db.Cliente.ToList();
+            var cpfExiste = false;
 
-            db.Entry(oCatBanco).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
-            db.SaveChanges();
+            oLista.ForEach(c =>
+            {
+                if (c.Cpf == oCliente.Cpf&&id !=c.Id)
+                {
+                    cpfExiste = true;
+                }
+            });
+            if (!cpfExiste)
+            {
+                var oCatBanco = db.Cliente.Find(id);
+
+                oCatBanco.Cpf = oCliente.Cpf;
+                oCatBanco.Nome = oCliente.Nome;
+                oCatBanco.Endereco = oCliente.Endereco;
+                oCatBanco.Cidade = oCliente.Cidade;
+                oCatBanco.Bairro = oCliente.Bairro;
+
+
+                db.Entry(oCatBanco).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                try
+                {
+                    db.SaveChanges();
+                }
+                catch
+                {
+                    Response.WriteAsync("<script>alert('ERRO iNTERNO!');document.location.replace('./Edit');</script>");
+                }
+                return RedirectToAction("Cliente");
+            }
+            else
+            {
+                Response.WriteAsync("<script>alert('Este CPF ja foi registrado!');document.location.replace('./Edit');</script>");
+            }
+
             return RedirectToAction("Cliente");
+
+
+
+
+
+
+
+
+           
+        }
+
+
+
+
+        public ActionResult HttpNotFound()
+        {
+            throw new NotImplementedException();
         }
 
         // GET: ClienteController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            Cliente oCliente = db.Cliente.Find(id);
+            return View(oCliente);
         }
 
         // POST: ClienteController/Delete/5
-        [HttpPost]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult DeleteConfirmed(int id = 0)
         {
+            Cliente oCliente = db.Cliente.Find(id);
+
+            db.Cliente.Remove(oCliente);
+
             try
             {
-                return RedirectToAction(nameof(Index));
+                db.SaveChanges();
             }
-            catch
+            catch (Microsoft.EntityFrameworkCore.DbUpdateException)
             {
-                return View();
+                Response.WriteAsync("<script>alert('Este Cliente possui emprestimos em seu nome!');{document.location.replace('../Cliente')}</script>");
             }
+            catch (Exception ex)
+            {
+                Response.WriteAsync("<script>alert('Ocorreu um erro interno!');{document.location.replace('../Cliente')}</script>");
+            }
+            return RedirectToAction("Cliente");
+        
         }
     }
 }
