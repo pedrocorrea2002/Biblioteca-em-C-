@@ -13,35 +13,32 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
-                <label asp-for="IdCliente" class="control-label"></label>
+                <label class="control-label">Nome do cliente</label>
                 <select asp-for="IdCliente" class="form-control" asp-items="ViewBag.Cliente"></select>
                 <span asp-validation-for="IdCliente" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="IdLivro" class="control-label"></label>
+                <label class="control-label">Nome do livro</label>
                 <select asp-for="IdLivro" class="form-control" asp-items="ViewBag.Livro"></select>
                 <span asp-validation-for="IdLivro" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DataEmprestimo" class="control-label"></label>
+                <label class="control-label">Data de empréstimo</label>
                 <input asp-for="DataEmprestimo" class="form-control" />
                 <span asp-validation-for="DataEmprestimo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DataDevolucao" class="control-label"></label>
+                <label class="control-label">Data de devolução</label>
                 <input asp-for="DataDevolucao" class="form-control" />
                 <span asp-validation-for="DataDevolucao" class="text-danger"></span>
             </div>
             <br/>
             <div class="form-group">
                 <input type="submit" value="Salvar" class="btn btn-primary" />
+                <a class="btn btn-primary" asp-action="Emprestimo">Voltar para a lista</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Emprestimo">Voltar para a lista</a>
 </div>
 
 @section Scripts {

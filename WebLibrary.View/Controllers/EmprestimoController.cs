@@ -98,10 +98,18 @@ namespace WebLibrary.View.Controllers
         public ActionResult Delete(int id = 0)
         {
             LivroClienteEmprestimo oEmpr = db.LivroClienteEmprestimo.Find(id);
+            
             if (oEmpr == null)
             {
                 return HttpNotFound();
             }
+
+            Cliente oCliente = db.Cliente.Find(oEmpr.IdCliente);
+            Livro oLivro = db.Livro.Find(oEmpr.IdLivro);
+
+            oEmpr.IdClienteNavigation.Nome = oCliente.Nome;
+            oEmpr.IdLivroNavigation.Nome = oLivro.Nome;
+
             return View(oEmpr);
         }
 
