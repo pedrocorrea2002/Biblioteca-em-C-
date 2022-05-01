@@ -17,6 +17,7 @@ namespace WebLibrary.Model
 
         [Key]
         [Column("id")]
+        [Display (Name ="Código")]
         public int Id { get; set; }
         [Required]
         [Column("nome")]
