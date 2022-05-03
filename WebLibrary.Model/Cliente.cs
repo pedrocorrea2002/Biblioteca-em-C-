@@ -17,9 +17,11 @@ namespace WebLibrary.Model
 
         [Key]
         [Column("id")]
+        [Display(Name ="Código")]
         public int Id { get; set; }
         [Required]
         [Column("CPF")]
+        [Display(Name = "CPF")]
         [StringLength(14)]
         [Unicode(false)]
         public string Cpf { get; set; }
@@ -29,6 +31,7 @@ namespace WebLibrary.Model
         [Unicode(false)]
         public string Nome { get; set; }
         [Required]
+        [Display(Name = "Endereço")]
         [Column("endereco")]
         [StringLength(50)]
         [Unicode(false)]

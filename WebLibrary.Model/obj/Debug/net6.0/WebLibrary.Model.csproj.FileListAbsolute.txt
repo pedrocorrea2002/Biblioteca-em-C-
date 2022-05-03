@@ -96,3 +96,17 @@ C:\Users\Caio\Desktop\fazer aqui\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\n
 C:\Users\Caio\Desktop\fazer aqui\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.pdb
 C:\Users\Caio\Desktop\fazer aqui\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.genruntimeconfig.cache
 C:\Users\Caio\Desktop\fazer aqui\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\ref\WebLibrary.Model.dll
+D:\Documents\20157027\5º Período\Desenvolvimento Web com .NET Core\Av1\VS\WebLibrary-GitHub\BibliotecaDeCSharp\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.deps.json
+D:\Documents\20157027\5º Período\Desenvolvimento Web com .NET Core\Av1\VS\WebLibrary-GitHub\BibliotecaDeCSharp\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.runtimeconfig.json
+D:\Documents\20157027\5º Período\Desenvolvimento Web com .NET Core\Av1\VS\WebLibrary-GitHub\BibliotecaDeCSharp\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.dll
+D:\Documents\20157027\5º Período\Desenvolvimento Web com .NET Core\Av1\VS\WebLibrary-GitHub\BibliotecaDeCSharp\WebLibrary.Model\bin\Debug\net6.0\WebLibrary.Model.pdb
+D:\Documents\20157027\5º Período\Desenvolvimento Web com .NET Core\Av1\VS\WebLibrary-GitHub\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.csproj.AssemblyReference.cache
+D:\Documents\20157027\5º Período\Desenvolvimento Web com .NET Core\Av1\VS\WebLibrary-GitHub\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\20157027\5º Período\Desenvolvimento Web com .NET Core\Av1\VS\WebLibrary-GitHub\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.AssemblyInfoInputs.cache
+D:\Documents\20157027\5º Período\Desenvolvimento Web com .NET Core\Av1\VS\WebLibrary-GitHub\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.AssemblyInfo.cs
+D:\Documents\20157027\5º Período\Desenvolvimento Web com .NET Core\Av1\VS\WebLibrary-GitHub\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.csproj.CoreCompileInputs.cache
+D:\Documents\20157027\5º Período\Desenvolvimento Web com .NET Core\Av1\VS\WebLibrary-GitHub\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.dll
+D:\Documents\20157027\5º Período\Desenvolvimento Web com .NET Core\Av1\VS\WebLibrary-GitHub\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\refint\WebLibrary.Model.dll
+D:\Documents\20157027\5º Período\Desenvolvimento Web com .NET Core\Av1\VS\WebLibrary-GitHub\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.pdb
+D:\Documents\20157027\5º Período\Desenvolvimento Web com .NET Core\Av1\VS\WebLibrary-GitHub\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\WebLibrary.Model.genruntimeconfig.cache
+D:\Documents\20157027\5º Período\Desenvolvimento Web com .NET Core\Av1\VS\WebLibrary-GitHub\BibliotecaDeCSharp\WebLibrary.Model\obj\Debug\net6.0\ref\WebLibrary.Model.dll
