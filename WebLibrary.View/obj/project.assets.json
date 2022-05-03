@@ -9635,19 +9635,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Caio\\.nuget\\packages\\": {}
+    "C:\\Users\\pedro\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Caio\\Desktop\\fazer aqui\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
+      "projectUniqueName": "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
       "projectName": "WebLibrary.View",
-      "projectPath": "C:\\Users\\Caio\\Desktop\\fazer aqui\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
-      "packagesPath": "C:\\Users\\Caio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Caio\\Desktop\\fazer aqui\\BibliotecaDeCSharp\\WebLibrary.View\\obj\\",
+      "projectPath": "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
+      "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+      "outputPath": "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.View\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Caio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9661,8 +9666,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Caio\\Desktop\\fazer aqui\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj": {
-              "projectPath": "C:\\Users\\Caio\\Desktop\\fazer aqui\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj"
+            "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj": {
+              "projectPath": "G:\\Programation\\C#\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj"
             }
           }
         }
