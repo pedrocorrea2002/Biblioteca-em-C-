@@ -55,8 +55,9 @@ namespace WebLibrary.View.Controllers
         public ActionResult Create(LivroClienteEmprestimo oEmpr)
         {
             var oLivro = db.Livro.Find(oEmpr.IdLivro);
+            //oEmpr.DataDevolucao = DateTime.MinValue;
 
-            if(oLivro.Emprestado == false)
+            if(oLivro.Emprestado == false) 
             {
                 oLivro.Emprestado = true;
 
@@ -67,7 +68,7 @@ namespace WebLibrary.View.Controllers
             }
             else
             {
-                Response.WriteAsync("<script>alert('O livro já está emprestado');{document.location.replace('../Emprestimo')}</script>");
+                Response.WriteAsync("<script>alert('O livro ja esta emprestado');document.location.replace('./Emprestimo')</script>");
             }
 
             
@@ -85,11 +86,6 @@ namespace WebLibrary.View.Controllers
 
             LivroClienteEmprestimo oEmpr = db.LivroClienteEmprestimo.Find(id);
 
-            if(oEmpr.DataDevolucao != DateTime.MinValue)
-            {
-                Response.WriteAsync("<script>document.getElementById('devolucao').disabled = true</script>");
-            }
-
             return View(oEmpr);
         }
 
@@ -102,25 +98,31 @@ namespace WebLibrary.View.Controllers
             var oEmprBanco = db.LivroClienteEmprestimo.Find(id);
             var oLivroOriginal = db.Livro.Find(oEmprBanco.IdLivro);
 
-            if(oLivroOriginal.Id != oLivro.Id && oLivro.Emprestado == true)
+            if (oLivroOriginal.Id != oLivro.Id && oLivro.Emprestado == true)
             {
                 Response.WriteAsync("<script>alert('O livro já está emprestado');{document.location.replace('../Emprestimo')}</script>");
             }
             else
             {
-                if (oEmpr.DataDevolucao != DateTime.MinValue)
-                {
+                if (oEmpr.DataDevolucao != null && oEmprBanco.DataDevolucao == null)
+                {    
                     oLivro.Emprestado = false;
+                    oEmprBanco.DataDevolucao = oEmpr.DataDevolucao;
                 }
 
+                if(oLivro.Id != oLivroOriginal.Id)
+                {
+                    oLivroOriginal.Emprestado = false;
+                    oLivro.Emprestado = true;
+                }
 
                 oEmprBanco.IdLivro = oEmpr.IdLivro;
                 oEmprBanco.IdCliente = oEmpr.IdCliente;
                 oEmprBanco.DataEmprestimo = oEmpr.DataEmprestimo;
-                oEmprBanco.DataDevolucao = oEmpr.DataDevolucao;
 
                 db.Entry(oEmprBanco).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
                 db.Entry(oLivro).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                db.Entry(oLivroOriginal).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
                 db.SaveChanges();
             }
 
@@ -163,7 +165,7 @@ namespace WebLibrary.View.Controllers
 
             var oLivro = db.Livro.Find(oEmpr.IdLivro);
 
-            if(oEmpr.DataDevolucao == DateTime.MinValue)
+            if(oEmpr.DataDevolucao == null)
             {
                 oLivro.Emprestado = false;
             }

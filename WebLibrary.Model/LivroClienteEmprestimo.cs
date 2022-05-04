@@ -13,24 +13,19 @@ namespace WebLibrary.Model
     {
         [Key]
         [Column("id")]
-        [Display(Name = "Código")] 
+        [Display(Name = "Código")]
         public int Id { get; set; }
-
         [Column("idLivro")]
-        [Display(Name = "Livro")]
         public int IdLivro { get; set; }
-        
         [Column("idCliente")]
-        [Display(Name = "Cliente")]
         public int IdCliente { get; set; }
-
         [Column("dataEmprestimo", TypeName = "datetime")]
+
         [Display(Name = "Data de empréstimo")]
         public DateTime DataEmprestimo { get; set; }
-
         [Column("dataDevolucao", TypeName = "datetime")]
         [Display(Name = "Data de devolução")]
-        public DateTime DataDevolucao { get; set; }
+        public DateTime? DataDevolucao { get; set; }
 
         [ForeignKey("IdCliente")]
         [InverseProperty("LivroClienteEmprestimo")]
