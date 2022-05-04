@@ -125,7 +125,7 @@ CREATE TABLE [dbo].[Livro_Cliente_Emprestimo](
 	[idLivro] [int] NOT NULL,
 	[idCliente] [int] NOT NULL,
 	[dataEmprestimo] [datetime] NOT NULL,
-	[dataDevolucao] [datetime] NOT NULL,
+	[dataDevolucao] [datetime],
  CONSTRAINT [PK_Livro_Cliente_Emprestimo] PRIMARY KEY CLUSTERED 
 (
 	[id] ASC
