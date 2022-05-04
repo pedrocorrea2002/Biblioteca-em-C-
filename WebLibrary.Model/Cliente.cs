@@ -17,11 +17,10 @@ namespace WebLibrary.Model
 
         [Key]
         [Column("id")]
-        [Display(Name ="Código")]
+        [Display(Name = "Código")]
         public int Id { get; set; }
         [Required]
         [Column("CPF")]
-        [Display(Name = "CPF")]
         [StringLength(14)]
         [Unicode(false)]
         public string Cpf { get; set; }
@@ -29,22 +28,25 @@ namespace WebLibrary.Model
         [Column("nome")]
         [StringLength(100)]
         [Unicode(false)]
+        [Display(Name = "Nome")]
         public string Nome { get; set; }
         [Required]
-        [Display(Name = "Endereço")]
         [Column("endereco")]
         [StringLength(50)]
         [Unicode(false)]
+        [Display(Name = "Endereço")]
         public string Endereco { get; set; }
         [Required]
         [Column("cidade")]
         [StringLength(50)]
         [Unicode(false)]
+        [Display(Name = "Cidade")]
         public string Cidade { get; set; }
         [Required]
         [Column("bairro")]
         [StringLength(50)]
         [Unicode(false)]
+        [Display(Name = "Bairro")]
         public string Bairro { get; set; }
 
         [InverseProperty("IdClienteNavigation")]

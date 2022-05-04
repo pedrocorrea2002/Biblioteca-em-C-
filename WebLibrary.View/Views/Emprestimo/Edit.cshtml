@@ -7,9 +7,9 @@
 <h1>Editar</h1>
 
 <hr />
-<div class="row">
+<div id="body" class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" id="formEdit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
@@ -24,12 +24,12 @@
             </div>
             <div class="form-group">
                 <label class="control-label">Data de empréstimo</label>
-                <input asp-for="DataEmprestimo" class="form-control" />
+                <input id="emprestimo" asp-for="DataEmprestimo" class="form-control" />
                 <span asp-validation-for="DataEmprestimo" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label class="control-label">Data de devolução</label>
-                <input asp-for="DataDevolucao" class="form-control" />
+                <input id="devolucao" asp-for="DataDevolucao" class="form-control" />
                 <span asp-validation-for="DataDevolucao" class="text-danger"></span>
             </div>
             <br/>
@@ -39,6 +39,31 @@
             </div>
         </form>
     </div>
+
+    <script type="text/javascript">
+        if(document.getElementById('devolucao').value != ''){
+            document.getElementById('devolucao').disabled = true
+        }else{
+            document.getElementById('devolucao').disabled = false
+        }
+
+        document.getElementById('formEdit').addEventListener("submit", (e) => {
+            let emprestimo = document.getElementById('emprestimo')
+            let devolucao = document.getElementById('devolucao')
+
+            if(devolucao.value != '' && emprestimo.value > devolucao.value){
+                e.preventDefault()
+
+                emprestimo.style.borderColor = 'red'
+                emprestimo.style.borderWidth = '2px'
+
+                devolucao.style.borderColor = 'red'
+                devolucao.style.borderWidth = '2px'
+
+                alert("Data de emprestimo não pode ser maior que a data de devolução")
+            }
+        })
+    </script>
 </div>
 
 @section Scripts {
