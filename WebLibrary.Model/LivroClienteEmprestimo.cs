@@ -14,8 +14,10 @@ namespace WebLibrary.Model
         [Display(Name = "Código")]
         public int Id { get; set; }
         [Column("idLivro")]
+        [Display(Name = "Livro")]
         public int IdLivro { get; set; }
         [Column("idCliente")]
+        [Display(Name = "Cliente")]
         public int IdCliente { get; set; }
         [Column("dataEmprestimo", TypeName = "datetime")]
 

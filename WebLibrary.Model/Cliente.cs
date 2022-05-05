@@ -21,9 +21,11 @@ namespace WebLibrary.Model
         [Column("CPF")]
         [StringLength(14)]
         [Unicode(false)]
+        [Display(Name = "CPF")]
         public string Cpf { get; set; }
         [Required]
         [Column("nome")]
+
         [StringLength(100)]
         [Unicode(false)]
         [Display(Name = "Nome")]
