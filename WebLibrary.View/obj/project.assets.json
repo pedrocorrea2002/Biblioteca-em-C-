@@ -9635,19 +9635,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Caio\\.nuget\\packages\\": {}
+    "C:\\Users\\David Renan - 01\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Caio\\Desktop\\git\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
+      "projectUniqueName": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\WebLibrary-GitHub\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
       "projectName": "WebLibrary.View",
-      "projectPath": "C:\\Users\\Caio\\Desktop\\git\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
-      "packagesPath": "C:\\Users\\Caio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Caio\\Desktop\\git\\BibliotecaDeCSharp\\WebLibrary.View\\obj\\",
+      "projectPath": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\WebLibrary-GitHub\\BibliotecaDeCSharp\\WebLibrary.View\\WebLibrary.View.csproj",
+      "packagesPath": "C:\\Users\\David Renan - 01\\.nuget\\packages\\",
+      "outputPath": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\WebLibrary-GitHub\\BibliotecaDeCSharp\\WebLibrary.View\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Caio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\David Renan - 01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9661,8 +9666,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Caio\\Desktop\\git\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj": {
-              "projectPath": "C:\\Users\\Caio\\Desktop\\git\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj"
+            "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\WebLibrary-GitHub\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj": {
+              "projectPath": "D:\\Documents\\20157027\\5º Período\\Desenvolvimento Web com .NET Core\\Av1\\VS\\WebLibrary-GitHub\\BibliotecaDeCSharp\\WebLibrary.Model\\WebLibrary.Model.csproj"
             }
           }
         }
@@ -9710,7 +9715,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
