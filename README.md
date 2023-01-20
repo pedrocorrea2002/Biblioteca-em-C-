@@ -9,6 +9,6 @@ Trabalho de Asp.Net, sistema de biblioteca com 3 tabelas
 - Compactar a solução com .txt contendo matricula, nome e bkp do banco com orientações para criação do banco.
 
 ### DESENVOLVEDORES:
-- ![Caio Lemos](https://github.com/Caio-Gomes-Lemos)
-- ![Pedro Henrique](https://github.com/pedrocorrea2002)
-- ![David Renan](https://github.com/renanrrj)
+- [Caio Lemos](https://github.com/Caio-Gomes-Lemos)
+- [Pedro Henrique](https://github.com/pedrocorrea2002)
+- [David Renan](https://github.com/renanrrj)
